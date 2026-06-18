@@ -1,0 +1,23 @@
+name: robi_sms_logger
+description: "Robi থেকে আসা SMS automatically Google Sheet এ log করার Flutter app"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  another_telephony: ^0.4.0
+  http: ^1.2.2
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
